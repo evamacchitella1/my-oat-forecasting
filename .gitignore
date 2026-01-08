@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environments
+.venv/
+venv/
+env/
+.conda/
+.condarc
+
+# IDE
+.vscode/
+.idea/
+
+# Optional: ignore big generated outputs (keep if you want to submit results)
+# results/

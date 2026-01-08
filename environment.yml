@@ -1,0 +1,16 @@
+name: oat-forecast
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - numpy
+  - pandas
+  - matplotlib
+  - scikit-learn
+  - statsmodels
+  - pandas-datareader
+  - requests
+  - ipykernel
+  - pyarrow
+
+prefix: /opt/conda/envs/oat-forecast
