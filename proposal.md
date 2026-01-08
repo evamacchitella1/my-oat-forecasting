@@ -1,3 +1,4 @@
+24/10/2025
 This project aims to forecast the monthly changes in France’s 10-year government bond yield (OAT) using key macroeconomic indicators from 2000 to 2025. The OAT reflects the country’s long-term borrowing costs and is important for fiscal stability, particularly given that France’s debt has reached really high levels. Even modest yield increases can result into substantial additional interest payment burden. It is then crucial to understand what drives yields movements.
 
 I intend to use data (time series) from the dbnomics database (FRED, ECB), for the following variables: (for now): oat yield, euro-area inflation, ECB refinancing rate, unemployment rate and industrial production index. The target variable is the one-month change in the OAT yield. Each predictor is lagged by one-month so that only information available at the end of month t is used to forecast change in month t+1. Maybe trying different additional lags to compare later on.

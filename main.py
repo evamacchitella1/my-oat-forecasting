@@ -11,8 +11,6 @@ from pathlib import Path
 # =========================
 THIS_FILE = Path(__file__).resolve()
 
-# If main.py sits in the project root, /src exists next to it.
-# Otherwise (rare), fall back one level up.
 ROOT_DIR = THIS_FILE.parent if (THIS_FILE.parent / "src").exists() else THIS_FILE.parents[1]
 
 FIG_DIR = ROOT_DIR / "results" / "figures"
